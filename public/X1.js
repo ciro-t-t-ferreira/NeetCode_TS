@@ -32,7 +32,6 @@ let examples = [
 let answerKey = [true, false, true];
 examples.forEach(function (example) {
     console.log(containsDuplicate(example));
-    //console.log(checksAnswer(i, containsDuplicate(example)));    
 });
 function checksAnswer(i, answer) {
     return answerKey[i] == answer;

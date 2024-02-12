@@ -36,7 +36,6 @@ let answerKey: Array<boolean> = [true, false, true];
 
 examples.forEach(function(example){    
     console.log(containsDuplicate(example));
-    //console.log(checksAnswer(i, containsDuplicate(example)));    
 })
 
 function checksAnswer(i:number, answer:boolean) : boolean {
